@@ -1,6 +1,7 @@
 require 'json'
 
 data = JSON.parse File.open('members.json').read
+
 data['members'].each {|m| m.delete_if {|key, value| true if key.downcase.include? "feedback" or key.downcase.include? "point" or key == "ID" or key == "Start time" or key == "Completion time" or key == "Email"}}
 
 count = {}

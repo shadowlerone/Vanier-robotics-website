@@ -1,8 +1,7 @@
-html
-	include ../includes/head.pug
-	include ../template/member.pug
-	body
-		div.container-md.border
-			div.card-container
-				each val in [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19]
-					+member
+extends layout
+
+block content
+	.container-l.border.tan.vw-80
+		.card-columns.my-4.d-flex.flex-wrap
+			each n in members
+				+member(n)

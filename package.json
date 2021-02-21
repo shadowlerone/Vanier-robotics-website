@@ -10,6 +10,6 @@
   },
   "scripts": {
     "serve": "serve build",
-    "render": "pug src/pages --out build && sass scss/custom.scss build/assets/stylesheets/stylesheet.css"
+    "render": "pug src/pages -O src/data/members.json --out build && sass scss/custom.scss build/assets/stylesheets/stylesheet.css"
   }
 }
