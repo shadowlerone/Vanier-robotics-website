@@ -1,20 +1,15 @@
 {
   "dependencies": {
-    "bootstrap": "^5.0.0-beta1",
+    "bootstrap": "^4.5.3",
+    "gulp": "^4.0.2",
+    "gulp-pug": "^4.0.1",
     "pug": "^3.0.0",
     "pug-cli": "^1.0.0-alpha6",
     "sass": "^1.32.4",
     "serve": "^11.3.2"
   },
   "scripts": {
-    "build": "",
-	"sass": "sass scss/custom.scss build/stylesheets/index.css",
-	"pug":"pug pages --out build"
-  },
-  "name": "Vanier-robotics-website",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/shadowlerone/Vanier-robotics-website.git",
-  "author": "shadowlerone <andrae.lewis@gmail.com>",
-  "license": "MIT"
+    "serve": "serve build",
+    "render": "pug src/pages -O src/data/members.json --out build && sass scss/custom.scss build/assets/stylesheets/stylesheet.css"
+  }
 }
