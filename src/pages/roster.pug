@@ -1,7 +1,7 @@
 extends layout
 
 block content
-	.container-l.border.tan.vw-80
+	.container-lg.tan.vw-90
 		.card-columns.my-4.d-flex.flex-wrap
-			each n in members
-				+member(n)
+			each n in teams
+				+team(n)

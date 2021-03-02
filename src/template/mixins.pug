@@ -1,0 +1,27 @@
+mixin member(m)
+	div.card.p-3.mx-auto.my-2.tan(style="width: 16rem")
+		.card-header=m.Name
+		img.card-img-top.img-fluid(src="/assets/images/" + m.Name + ".jpg")
+		div.card-body
+			div.card-title
+			h6.card-subtitle Teams
+			p.card-text=m["What sub-teams are you a part of in robotics?"].join(", ")
+			hr
+			h6.card-subtitle Most memorable event(s) in robotics for 2020-2021:
+			p.card-text=m["Most memorable event(s) or experiences you have had in robotics for 2020-2021:"]
+			hr
+			h6.card-subtitle Favorite Roman numeral?
+			p.card-text=m["What is your favorite number ( in Roman numerals)?"]
+			hr
+			h6.card-subtitle Favorite emperor?
+			p.card-text=m["Who is your favorite emperor of the Roman Empire?"]
+			hr
+			h6.card-subtitle Job?
+			p.card-text=m["What job would you want to have in being a part of the Roman Empire?"]
+
+mixin team(t)
+	div.card.mx-auto.my-2.tan(style="width: 16rem")
+		.card-header=t
+		a.stretched-link(href="/roster/"+t, style="")
+		//- .card-body
+			

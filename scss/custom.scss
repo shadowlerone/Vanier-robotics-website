@@ -1,5 +1,6 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "variables";
+@import "navbar";
 
 .card-columns {
 	@include media-breakpoint-only(md) {
@@ -15,7 +16,22 @@
 	&>.card {
 		display         : inline-block;
 		background-color: $scroll-color;
+
 	}
+	max-width: 80vh;
+	overflow-y: scroll;
+}
+.card-columns {
+	max-height: 90vh;
+	min-height: 90vh;
+	overflow-y: auto;
+	overflow-x: hidden;
+	&>.card {
+		// max-width:em;
+		max-height: 20%;
+		overflow:auto;
+	}
+
 }
 
 .card-subtitle {

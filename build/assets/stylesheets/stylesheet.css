@@ -9896,6 +9896,46 @@ h3 {
     border-color: #dee2e6;
   }
 }
+#navbar {
+  height: 0;
+  position: fixed;
+  background-color: tan;
+  right: 2em;
+  top: 2em;
+  transition: height 1s;
+  z-index: 999;
+  width: 25em;
+}
+#navbar * {
+  font-size: 1.5em;
+}
+
+#navlist {
+  list-style: none;
+  height: 0;
+  transition: height 1s;
+  overflow: hidden;
+  padding: 1em;
+}
+#navlist * {
+  list-style: none;
+  height: 0;
+  transition: height 1s;
+  overflow: hidden;
+  transition: height 1s;
+}
+
+#navbar:hover > #navlist,
+#navbar:hover,
+#navbar:hover > #navlist * {
+  height: auto;
+}
+
+.bubble {
+  border: 1px solid black;
+  height: 1em;
+}
+
 @media (min-width: 768px) and (max-width: 991.98px) {
   .card-columns {
     column-count: 4;
@@ -9907,9 +9947,24 @@ h3 {
   }
 }
 
+.card-container {
+  max-width: 80vh;
+  overflow-y: scroll;
+}
 .card-container > .card {
   display: inline-block;
   background-color: #f2e8cd;
+}
+
+.card-columns {
+  max-height: 90vh;
+  min-height: 90vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.card-columns > .card {
+  max-height: 20%;
+  overflow: auto;
 }
 
 .card-subtitle {

@@ -3,7 +3,7 @@
 		{
 			"Name": "Vanessa Siev",
 			"What is your name?": "vanessa (ill send a pic later)",
-			"What sub-teams are you a part of in robotics?": "captain..?",
+			"What sub-teams are you a part of in robotics?": "Captain",
 			"Most memorable event(s) or experiences you have had in robotics for 2020-2021:": "team microsoft calls with the sub-teams",
 			"What is your favorite number ( in Roman numerals)?": "VI",
 			"Who is your favorite emperor of the Roman Empire?": "Marcus Aurelius",
@@ -23,7 +23,7 @@
 		{
 			"Name": "Julien Chalifoux",
 			"What is your name?": "Julien Chalifoux",
-			"What sub-teams are you a part of in robotics?": "Video, Kiosk, and Journalism",
+			"What sub-teams are you a part of in robotics?": "Video, Kiosk, Journalism",
 			"Most memorable event(s) or experiences you have had in robotics for 2020-2021:": "Crazy meetings that we had! These times are hard and having a little humor in our meetings is always the best!",
 			"What is your favorite number ( in Roman numerals)?": "MMM",
 			"Who is your favorite emperor of the Roman Empire?": "Commodus",
@@ -33,7 +33,7 @@
 		{
 			"Name": "Cassidy Grande",
 			"What is your name?": "Cassidy Grande",
-			"What sub-teams are you a part of in robotics?": "video, kiosk, and journalism",
+			"What sub-teams are you a part of in robotics?": "video, kiosk, journalism",
 			"Most memorable event(s) or experiences you have had in robotics for 2020-2021:": "probably our among us game nights and always getting off topic during meetings and talking for hours about random stuff",
 			"What is your favorite number ( in Roman numerals)?": "VI",
 			"Who is your favorite emperor of the Roman Empire?": "Antoninus Pius",
@@ -53,7 +53,7 @@
 		{
 			"Name": "Nicholas Katsis",
 			"What is your name?": "Nicholas Katsis",
-			"What sub-teams are you a part of in robotics?": "Journalism and Web",
+			"What sub-teams are you a part of in robotics?": "Captain, Journalism, Web",
 			"Most memorable event(s) or experiences you have had in robotics for 2020-2021:": "The first couple of meetings when we were getting to know each other.",
 			"What is your favorite number ( in Roman numerals)?": "XXVII",
 			"Who is your favorite emperor of the Roman Empire?": "Constantine the Great",
@@ -63,7 +63,7 @@
 		{
 			"Name": "Romaissa Boukouna",
 			"What is your name?": "Romaissa Boukouna",
-			"What sub-teams are you a part of in robotics?": "Web and Build.",
+			"What sub-teams are you a part of in robotics?": "Web, Build.",
 			"Most memorable event(s) or experiences you have had in robotics for 2020-2021:": "Learning new things is what makes my times more memorable in robotics 2021.",
 			"What is your favorite number ( in Roman numerals)?": "IX",
 			"Who is your favorite emperor of the Roman Empire?": "",
@@ -83,7 +83,7 @@
 		{
 			"Name": "Foti Aivaliklis",
 			"What is your name?": "Foti Aivaliklis",
-			"What sub-teams are you a part of in robotics?": "Build and Programming",
+			"What sub-teams are you a part of in robotics?": "Build, Programming",
 			"Most memorable event(s) or experiences you have had in robotics for 2020-2021:": "Our Among Us game nights",
 			"What is your favorite number ( in Roman numerals)?": "XXII",
 			"Who is your favorite emperor of the Roman Empire?": "Julius Caesar",
@@ -143,7 +143,7 @@
 		{
 			"Name": "Christos Alexiou",
 			"What is your name?": "Christos Alexiou",
-			"What sub-teams are you a part of in robotics?": "build and programming",
+			"What sub-teams are you a part of in robotics?": "build, programming",
 			"Most memorable event(s) or experiences you have had in robotics for 2020-2021:": "staying up until 3 am to figure out stuff",
 			"What is your favorite number ( in Roman numerals)?": "x",
 			"Who is your favorite emperor of the Roman Empire?": "Pescennius Niger",
@@ -153,7 +153,7 @@
 		{
 			"Name": "Anastassiya Kim",
 			"What is your name?": "Anastassiya Kim",
-			"What sub-teams are you a part of in robotics?": "Web, Programming and Video",
+			"What sub-teams are you a part of in robotics?": "Web, Programming,  Video",
 			"Most memorable event(s) or experiences you have had in robotics for 2020-2021:": "It was getting to know new people and learning new things.",
 			"What is your favorite number ( in Roman numerals)?": "X",
 			"Who is your favorite emperor of the Roman Empire?": "Augustus Caesar",
@@ -173,7 +173,7 @@
 		{
 			"Name": "Jad Ashkar",
 			"What is your name?": "Jad",
-			"What sub-teams are you a part of in robotics?": "Build and programming",
+			"What sub-teams are you a part of in robotics?": "Captain, Build, programming",
 			"Most memorable event(s) or experiences you have had in robotics for 2020-2021:": "Debating with other team members for the best idea for build",
 			"What is your favorite number ( in Roman numerals)?": "XX",
 			"Who is your favorite emperor of the Roman Empire?": "Augustus",
@@ -183,7 +183,7 @@
 		{
 			"Name": "Mada Matar",
 			"What is your name?": "Mada Matar",
-			"What sub-teams are you a part of in robotics?": "Build and programming",
+			"What sub-teams are you a part of in robotics?": "Build, programming",
 			"Most memorable event(s) or experiences you have had in robotics for 2020-2021:": "Meeting up with members and sketching their ideas out.",
 			"What is your favorite number ( in Roman numerals)?": "XLII",
 			"Who is your favorite emperor of the Roman Empire?": "Marcus Aurelius",
@@ -200,5 +200,13 @@
 			"What job would you want to have in being a part of the Roman Empire?": "Engineer",
 			"You can upload a picture of yourself that will be used for your biography page on the robotics page. You do not have to upload a picture at all if you are not comfortable or do not want to. This i...": ""
 		}
+	],
+	"teams": [
+		"Captains",
+		"Build",
+		"Programming",
+		"Kiosk",
+		"Video",
+		"Web"
 	]
 }
