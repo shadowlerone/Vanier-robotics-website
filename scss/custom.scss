@@ -1,6 +1,11 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
+
 @import "variables";
 @import "navbar";
+
+#wrapper {
+	max-height: 100vh !important;
+}
 
 .card-columns {
 	@include media-breakpoint-only(md) {
@@ -18,9 +23,13 @@
 		background-color: $scroll-color;
 
 	}
-	max-width: 80vh;
+	max-width: 90vh;
 	overflow-y: scroll;
 }
+.member {
+	width: 24em !important;
+}
+
 .card-columns {
 	max-height: 90vh;
 	min-height: 90vh;
@@ -41,6 +50,25 @@
 .tan {
 	background-color: $scroll-color;
 }
+
+@media only screen and (max-width: 1200px) {
+	#wrapper {
+		max-height: inherit  !important;
+		overflow-y: hidden;
+	}
+	.member{
+		max-width: fit-content !important;
+	}
+}
+
+
+
+
+
+
+
+
+
 
 // body {
 // 	// font-family   : Verdana, sans-serif;

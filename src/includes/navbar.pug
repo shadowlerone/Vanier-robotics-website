@@ -1,5 +1,5 @@
 nav#navbar.collapsed()
-	.bubble
+	.bubble.bubble-top(onclick="toggle()")
 		//- | nothing
 	ul#navlist
 		a(href="/")
@@ -14,5 +14,10 @@ nav#navbar.collapsed()
 			| Test
 		li.navlink
 			| Test
-	.bubble
+	.bubble.bubble-bottom(onclick="toggle()")
 		//- | nothing
+
+	
+//- nav.navbar.navbar-expand-lg.navbar-light.bg-light 
+//- 	a.navbar-brand Navbar 
+//- 	button.navbar-toggler(type="button", data-toggle="collapse")

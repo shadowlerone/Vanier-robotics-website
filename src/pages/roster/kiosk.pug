@@ -3,7 +3,6 @@ extends ../layout
 block content
 	- t = "Kiosk"
 	- fmembers = members.filter(m => m["What sub-teams are you a part of in robotics?"].includes(t))
-	.container-l.border.tan.vw-80
 		.card-columns.my-4.d-flex.flex-wrap
 			each n in fmembers
 				+member(n)

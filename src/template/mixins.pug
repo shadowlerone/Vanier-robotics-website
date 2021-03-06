@@ -1,5 +1,5 @@
 mixin member(m)
-	div.card.p-3.mx-auto.my-2.tan(style="width: 16rem")
+	div.card.p-3.mx-auto.my-2.tan.member()
 		.card-header=m.Name
 		img.card-img-top.img-fluid(src="/assets/images/" + m.Name + ".jpg")
 		div.card-body
@@ -20,7 +20,7 @@ mixin member(m)
 			p.card-text=m["What job would you want to have in being a part of the Roman Empire?"]
 
 mixin team(t)
-	div.card.mx-auto.my-2.tan(style="width: 16rem")
+	div.card.mx-auto.my-2.tan(style="height: 10rem;width:10rem;")
 		.card-header=t
 		a.stretched-link(href="/roster/"+t, style="")
 		//- .card-body
