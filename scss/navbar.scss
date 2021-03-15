@@ -14,7 +14,16 @@
 		font-size: 1.5rem;
 	}
 	z-index: 999;
-	width: 12.5em;
+	width: 18em;
+}
+.navheader {
+	display: flex;
+}
+.navimg {
+	max-height: 2.5rem;
+	max-width: 2.5rem;
+	float: left;
+	margin-right: 1em;
 }
 #navlist {
 	& > * {
@@ -36,6 +45,7 @@
 	position: relative;
 	// padding: 1em;
 	margin-bottom: 0;
+	text-align: justify;
 }
 #navbar.visible > #navlist, 
 #navbar.visible, 

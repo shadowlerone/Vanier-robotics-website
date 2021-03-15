@@ -1,24 +1,19 @@
 nav#navbar.collapsed()
 	.bubble.bubble-top(onclick="toggle()")
 		//- | nothing
+	.navheader
+		a
+			img(src="")
+		a
+			img(src="")
+		a Fr
 	ul#navlist
-		a(href="/")
-			li.navlink
-				| Home
-		a(href="/roster/")
-			li.navlink
-				| Roster
-		a(:href="" title="title")
-			li.navlink
-				| Robot
-		a(:href="" title="title")
-			li.navlink
-				| Library
-		a(:href="" title="title")
-			li.navlink
-				| Videos
-	.bubble.bubble-bottom(onclick="toggle()")
-		//- | nothing
+		+navlink("/", "Home", "")
+		+navlink("/roster/", "Roster", "Militia.png")
+		+navlink("/robot/", "Robot", "Warfront.png")
+		+navlink("/library/", "Library", "Archives.png")
+		+navlink("/video/", "Video", "Amphitheater.svg")
+
 
 	
 //- nav.navbar.navbar-expand-lg.navbar-light.bg-light 

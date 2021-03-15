@@ -1,7 +1,7 @@
 mixin member(m)
 	div.card.p-3.mx-auto.my-2.tan.member()
 		.card-header=m.Name
-		img.card-img-top.img-fluid(src="/assets/images/" + m.Name + ".jpg")
+		img.card-img-top.img-fluid(src="/assets/images/roster/" + m.img + ".jpg")
 		div.card-body
 			div.card-title
 			h6.card-subtitle Teams
@@ -25,3 +25,6 @@ mixin team(t)
 		a.stretched-link(href="/roster/"+t, style="")
 		//- .card-body
 			
+mixin navlink(url, n, img)
+	a(href=url)
+		li.navlink #[img.navimg(src="/assets/images/nav/" + img)] #{n}
