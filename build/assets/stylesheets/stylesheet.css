@@ -9911,12 +9911,20 @@ h3 {
 .navheader {
   display: flex;
 }
+.navheader > a {
+  font-size: 5rem;
+}
 
 .navimg {
-  max-height: 2.5rem;
-  max-width: 2.5rem;
+  max-height: 2rem;
+  max-width: 2rem;
   float: left;
   margin-right: 1em;
+}
+
+.navheader > a > .navimg {
+  max-height: 5rem;
+  max-width: 5rem;
 }
 
 #navlist {
@@ -9944,6 +9952,7 @@ h3 {
 #navbar.visible,
 #navbar.visible > #navlist * {
   height: auto;
+  transition: height 1s;
 }
 
 .bubble {

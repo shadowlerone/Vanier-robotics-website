@@ -1,13 +1,14 @@
 nav#navbar.collapsed()
 	.bubble.bubble-top(onclick="toggle()")
 		//- | nothing
-	.navheader
-		a
-			img(src="")
-		a
-			img(src="")
-		a Fr
+	
 	ul#navlist
+		.navheader
+			a
+				img.navimg(src="/assets/images/logos/crclogo.png")
+			a
+				img(src="")
+			a Fr
 		+navlink("/", "Home", "")
 		+navlink("/roster/", "Roster", "Militia.png")
 		+navlink("/robot/", "Robot", "Warfront.png")

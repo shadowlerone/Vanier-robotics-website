@@ -1,7 +1,7 @@
-extends ../layout
+extends ../../layout
 
 block content
-	- t = "Programming"
+	- t = "Video"
 	- fmembers = members.filter(m => m["What sub-teams are you a part of in robotics?"].includes(t))
 		.card-columns.d-flex.flex-wrap
 			each n in fmembers
