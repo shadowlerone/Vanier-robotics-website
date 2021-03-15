@@ -9902,10 +9902,10 @@ h3 {
   top: 2em;
   transition: height 1s;
   z-index: 999;
-  width: 25em;
+  width: 12.5em;
 }
 #navbar * {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 #navlist {
@@ -9962,6 +9962,20 @@ h3 {
     position: initial;
   }
 }
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+#text-heavy {
+  background-image: url("/assets/images/backgrounds/battlefield.jpg");
+  /*To set the page's background*/
+}
+
 #wrapper {
   max-height: 100vh !important;
 }
@@ -9977,8 +9991,24 @@ h3 {
   }
 }
 
+.window {
+  width: 90vw;
+  /*window dimensions*/
+  height: 90vh;
+  /*window dimensions*/
+  border: solid 2px black;
+  /*Adding a border*/
+  background-color: rgba(255, 255, 255, 0.5);
+  /*Making only the window half transparent*/
+  overflow-y: scroll;
+  /*Adding a vertical scrollbar*/
+  /* text-align: center; */
+  margin: auto;
+  box-sizing: border-box;
+  margin-top: 2em;
+}
+
 .card-container {
-  max-width: 90vh;
   overflow-y: scroll;
 }
 .card-container > .card {
@@ -9991,10 +10021,12 @@ h3 {
 }
 
 .card-columns {
-  max-height: 90vh;
-  min-height: 90vh;
+  min-height: 100%;
+  box-sizing: border-box;
   overflow-y: auto;
   overflow-x: hidden;
+  align-items: center;
+  padding: 1.5rem;
 }
 .card-columns > .card {
   max-height: 20%;
